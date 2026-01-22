@@ -15,7 +15,7 @@
 }
 #smallDiv1{
     width: 100%;
-    height: 60%;
+    height: 50%;
     border: 2px solid red;
     display: flex;
     justify-content: space-between;
@@ -80,15 +80,15 @@ nav div{
 /*  */
 #smallDiv2{
     width: 100%;
-    height: 80%;
+    height: 50%;
     border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #whenWhereWho{
-    width: 40%;
-    height: 80%;
+    width: 50%;
+    height: 90%;
     border: 2px solid green;
     display: flex;
     justify-content: space-evenly;
@@ -100,7 +100,7 @@ nav div{
 }
 #whenWhereWho div{
     width: 30%;
-    height: 60%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,4 +110,12 @@ nav div{
     border: 1px solid black;
     border-radius: 30px;
 }
+#whenWhereWho div input{
+    width: 90%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
 
