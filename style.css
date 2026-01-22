@@ -80,14 +80,14 @@ nav div{
 /*  */
 #smallDiv2{
     width: 100%;
-    height: 50%;
+    height: 60%;
     border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #whenWhereWho{
-    width: 50%;
+    width: 80%;
     height: 90%;
     border: 2px solid green;
     display: flex;
@@ -99,7 +99,7 @@ nav div{
     border-radius: 30px;
 }
 #whenWhereWho div{
-    width: 30%;
+    width: 33.3%;
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -110,12 +110,36 @@ nav div{
     border: 1px solid black;
     border-radius: 30px;
 }
-#whenWhereWho div input{
-    width: 90%;
-    height: 30px;
-    border: none;
-    outline: none;
-    font-size: 1rem;
+#Who{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
 }
 
+
+
+#fwho{
+    width: 60%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+#iconwho{
+    width: 40%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
 
