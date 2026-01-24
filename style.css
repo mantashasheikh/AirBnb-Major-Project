@@ -110,6 +110,8 @@ nav div{
     border-radius: 30px;
 }
 #Who{
+    height:30;
+    width:200px;
     display: flex;
     justify-content: center;
     align-items: center;
