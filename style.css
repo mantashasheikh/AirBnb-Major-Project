@@ -144,26 +144,31 @@ input{
 
 /* main part */
 #NorthGoa{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 #northGoaimg{
-    width: 100%;
+    width: 80%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2px;
     margin-top: 10px;
+    padding-left: 70px;
 }
+
 #northGoaimg div{
     height: 300px;
     width : 300px;
 
 }
 #northGoaimg div img{
-    height: 250px;
-    width : 250px;
+    height: 200px;
+    width : 200px;
 
 }
